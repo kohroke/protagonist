@@ -1,0 +1,394 @@
+$lh: 1.55em;
+$bad: #E60012;
+$hero: #0086CF;
+$normal: #358F43;
+$revenge: #FF008F;
+
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Gothic+A1:wght@200;300;400;500;600;700;800;900&family=Grandiflora+One&family=Hahmlet:wght@300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,400;0,500;0,600;0,900;1,400;1,500;1,600&family=PT+Mono&display=swap');
+@font-face {
+  font-family: 'tgothic';
+  src: url('/font/SM3태고딕-Regular.otf') format('truetype');}
+@font-face {
+    font-family: 'kmyungjo';
+    src: url('/font/SM견출명조-Regular.otf') format('truetype');}
+@font-face {
+      font-family: 'tmyungjo';
+      src: url('/font/SM3태명조-Regular.otf') format('truetype');}
+
+*{
+    color:white;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    word-break: keep-all;
+    overflow-x :  hidden;
+    user-select: none;
+}
+
+
+body {
+    background-color: black;
+    margin: 0px;
+    width: 100%;
+
+  }
+
+a:link{
+  text-decoration-line:none
+}
+a:hover{
+    color: #fff;     
+}
+
+
+.title{
+    cursor: pointer;  
+    display: inline-flex;
+    position: fixed;
+    margin:4em;
+    width: 20em;
+    z-index: 9000; 
+    mix-blend-mode: difference;
+  }
+
+  .menu {
+    cursor: pointer;  
+    display: inline-flex;
+    position: fixed;
+    z-index: 9000; 
+    top:1em;
+    left:25em;
+    margin:30px;
+    mix-blend-mode: difference;
+  }
+
+    .menu_index{ 
+      cursor: pointer;  
+      display: inline-flex;
+      position: fixed;
+      z-index: 9000; 
+      top:1em;
+      right:1em;
+      margin:30px;
+      mix-blend-mode: difference;
+      font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        width:auto; height:auto; 
+        font-size:2.5em; 
+        margin:30px;
+        line-height: 97%;
+    }
+  
+    .cat_eng { 
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      width:auto; height:auto; 
+      font-size:2.5em; 
+      margin:30px;
+      line-height: 97%;
+  }
+
+    .cat_kor { 
+      font-family: 'Gothic A1', sans-serif;
+      width:auto; height:auto; 
+      font-size:2.5em; 
+      margin:30px;
+      letter-spacing: -10%;
+  }
+
+
+   
+
+.header{
+    top:0;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    margin: 0 0 15em 0;
+}
+
+
+#content{
+  position: relative;
+  width: 100%;
+  
+
+
+  .detail_block{
+  display: inline-block;
+  margin: 0 0 0 28em;
+  width: 25%;
+ 
+
+  
+    .detail_title{
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+    margin: 0 0 3em 0;
+    top:50%;
+    overflow: hidden;
+
+    .name{
+      font-family: 'kmyungjo';
+      font-size: 5em;
+      color: #fff;
+      letter-spacing: -5px;
+      }
+
+      .bad{
+      font-family: 'tgothic';
+      font-size: 3em;
+      position: absolute;
+      right: 0;
+      letter-spacing: -3px; 
+      }
+  }
+
+
+  .solid_line{
+    margin: 1em 0;
+    width: 100%;
+  }
+
+
+  .detail_text{
+    position: relative;
+    margin: 1em 0;
+    display: inline-flex;
+    width: 100%;
+
+    .text_left{
+      font-family: 'tgothic';
+      font-size: 2em;
+      letter-spacing: -3px; 
+      line-height: 150%;
+    }
+    
+    .text_right{
+      position: absolute;
+      font-family: 'tgothic';
+      font-size: 2em;
+      letter-spacing: -3px; 
+      line-height: 150%;
+      text-align: right;
+      right:0;
+    }
+  }
+
+  .detail_logo{
+  width: 100%;
+  display: inline-flex;
+  position: relative;
+  margin: 13em 0 0 0;
+  }
+
+  }
+
+  .detail_main_img{ 
+  width:60%;
+  float: right;
+  margin:0 0 15em 0;
+  top:0;
+  position: relative;
+  }
+
+  .img_list{
+ 
+  width:100%;
+  position: relative;
+  display: block;
+
+  .img_box{
+
+    width:70%;
+    float: right;
+    overflow:hidden;
+    margin:0;
+  }
+  
+  .img_detail{
+      object-fit: cover;
+      width: 100%; height: 100;
+  }
+  } 
+}
+
+
+
+
+.line_box{
+  clear: both;
+  position: relative;
+  margin: 15em 0 15em 28em;
+  width: 100%;
+  display: block;
+
+  .name{
+    font-family: 'tgothic';
+    font-size: 3em;
+    letter-spacing: -3px; 
+  }
+
+  .line{
+    width: 65%;
+    margin: 0.5em 0;
+    font-family: 'kmyungjo';
+    font-size: 10em;
+    letter-spacing: -13px; 
+    word-spacing: -0.1em;
+    line-height: 130%;
+  }
+
+  .timecode{
+    font-size: 4em;
+    letter-spacing: -1px; 
+    font-family: 'PT Mono', monospace;
+  }
+}
+
+.line_box2{
+  clear: both;
+  position: relative;
+  margin: 15em 0 30em 28em;
+  width: 100%;
+  display: block;
+
+  .name{
+    font-family: 'tgothic';
+    font-size: 3em;
+    letter-spacing: -3px; 
+  }
+
+  .line{
+    width: 60%;
+    margin: 0.5em 0;
+    font-family: 'kmyungjo';
+    font-size: 10em;
+    letter-spacing: -13px; 
+    word-spacing: -0.1em;
+    line-height: 130%;
+  }
+
+  .timecode{
+    font-size: 4em;
+    letter-spacing: -1px; 
+    font-family: 'PT Mono', monospace;
+  }
+}
+
+
+    
+  
+.cursor {
+    color:inherit;
+    position:relative;
+    font:inherit;
+    color:inherit;
+    line-height: inherit;
+    animation: Cursor 1s infinite;
+    
+}
+  
+@keyframes Cursor{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+.typelighter_box{
+    width:20%;
+    position:fixed;
+    right: 10em;
+    top: 15em;
+    margin: 1em;
+    mix-blend-mode:difference; 
+      }
+
+  .typeWriter{
+    font-family:'tgothic';
+    font-size: 2.5em;
+    letter-spacing: -3px; 
+    line-height: 170%;
+  
+    span{
+      color:#fff; 
+    }
+}
+
+ .bad_color{
+  position: fixed;
+  top: 0%; right: 0;
+  width: 100%; height: 100%;
+  background-color: $bad;
+  mix-blend-mode: darken;
+  z-index: 10000;
+  pointer-events:none;
+ }
+ .normal_color{
+  position: fixed;
+  top: 0%; right: 0;
+  width: 100%; height: 100%;
+  background-color: #358F43;
+  mix-blend-mode: darken;
+  z-index: 10000;
+  pointer-events:none;
+ }
+ .revenge_color{
+  position: fixed;
+  top: 0%; right: 0;
+  width: 100%; height: 100%;
+  background-color: $revenge;
+  mix-blend-mode: darken;
+  z-index: 10000;
+  pointer-events:none;
+ }
+ .hero_color{
+  position: fixed;
+  top: 0%; right: 0;
+  width: 100%; height: 100%;
+  background-color: $hero;
+  mix-blend-mode: darken;
+  z-index: 10000;
+  pointer-events:none;
+ }
+
+
+.footer{
+    position: relative;
+    width: 100%;
+    top:100%;
+    bottom: 2em;
+  
+  
+  
+ .small_kor{
+    margin-left: 1em;
+    margin-top: 1em;
+    font-family: 'Montserrat', sans-serif, 'Gothic A1', sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.02rem;
+    line-height: 150%;
+    font-size: 1.2em;  
+      }
+    }
+
+.typelighter_load{
+      width:80%;
+      margin: 5em;
+        }
+  
+.typeWriter_load{
+
+  font-family:'tgothic';
+  font-size: 2.5em;
+  letter-spacing: -3px; 
+  line-height: 170%;
+  
+      span{
+        color:#fff; 
+      }
+  }
+  
