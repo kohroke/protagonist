@@ -25,6 +25,10 @@
           user-select: none;
 }
 
+html{
+    font-size: 8px;
+}
+
 body {
   background-color: black;
   margin: 0px;
