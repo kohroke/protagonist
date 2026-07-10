@@ -16,7 +16,9 @@
 a:link {
   text-decoration-line: none;
 }
-
+html {
+    zoom: 0.55;
+}
 body {
   background-color: black;
   height: 100vh;
