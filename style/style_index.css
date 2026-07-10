@@ -32,6 +32,10 @@ a:hover {
   color: #fff;
 }
 
+html {
+    zoom: 0.55;
+}
+
 body {
   background-color: black;
   margin: 0px;
