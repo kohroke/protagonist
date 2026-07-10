@@ -17,10 +17,10 @@ a:link {
   text-decoration-line: none;
 }
 html {
-    zoom: 0.55;
+    font-size: 9px;
 }
 body {
-  background-color: RED;
+  background-color: BLACK;
   height: 100vh;
   margin: 0px;
   overflow: hidden;
