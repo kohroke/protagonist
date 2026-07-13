@@ -1,17 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Diphylleia&family=Gothic+A1:wght@200;300;400;500;600;700;800;900&family=Grandiflora+One&family=Hahmlet:wght@300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,400;0,500;0,600;0,900;1,400;1,500;1,600&family=PT+Mono&display=swap");
-@font-face {
-  font-family: "tgothic";
-  src: url("/font/SM3태고딕-Regular.otf") format("truetype");
-}
-@font-face {
-  font-family: "kmyungjo";
-  src: url("/font/SM견출명조-Regular.otf") format("truetype");
-}
-@font-face {
-  font-family: "tmyungjo";
-  src: url("/font/SM3태명조-Regular.otf") format("truetype");
-}
+
 * {
   color: white;
   margin: 0;
@@ -25,14 +14,16 @@
           user-select: none;
 }
 
-html{
-    font-size: 8px;
+html {
+    font-size: 9px;
 }
+
 
 body {
   background-color: black;
   margin: 0px;
   width: 100%;
+      overflow: hidden;
 }
 
 a:link {
@@ -47,9 +38,12 @@ a:hover {
   cursor: pointer;
   display: inline-flex;
   position: fixed;
-  margin: 4em;
+  margin: 2em;
   width: 20em;
-  z-index: 9000;
+  left: 2%;
+  top: 3%;
+    z-index: 9000;
+  width: 10%;
   mix-blend-mode: difference;
 }
 
@@ -57,29 +51,27 @@ a:hover {
   cursor: pointer;
   display: inline-flex;
   position: fixed;
-  z-index: 9000;
-  top: 1em;
-  left: 25em;
-  margin: 30px;
+    z-index: 9000;
+  top: 2%;
+  left: 15%;
   mix-blend-mode: difference;
 }
 
 .menu_index {
+   scrollbar-width: none;
   cursor: pointer;
   display: inline-flex;
   position: fixed;
   z-index: 9000;
-  top: 1em;
-  right: 1em;
-  margin: 30px;
+  top: 2%;
+  right: 2%;
+  margin: 2em;
   mix-blend-mode: difference;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   width: auto;
   height: auto;
   font-size: 2.5em;
-  margin: 30px;
-  line-height: 97%;
 }
 
 .cat_eng {
@@ -88,7 +80,7 @@ a:hover {
   width: auto;
   height: auto;
   font-size: 2.5em;
-  margin: 30px;
+  margin: 2em;
   line-height: 97%;
 }
 
@@ -97,7 +89,7 @@ a:hover {
   width: auto;
   height: auto;
   font-size: 2.5em;
-  margin: 30px;
+  margin: 2em;
   letter-spacing: -10%;
 }
 
@@ -115,7 +107,7 @@ a:hover {
 }
 #content .detail_block {
   display: inline-block;
-  margin: 0 0 0 28em;
+  margin: 0 0 0 10%;
   width: 25%;
 }
 #content .detail_block .detail_title {
@@ -152,14 +144,14 @@ a:hover {
 #content .detail_block .detail_text .text_left {
   font-family: "tgothic";
   font-size: 2em;
-  letter-spacing: -3px;
+  letter-spacing: -1px;
   line-height: 150%;
 }
 #content .detail_block .detail_text .text_right {
   position: absolute;
   font-family: "tgothic";
   font-size: 2em;
-  letter-spacing: -3px;
+  letter-spacing: -1px;
   line-height: 150%;
   text-align: right;
   right: 0;
@@ -205,14 +197,14 @@ a:hover {
 .line_box .name {
   font-family: "tgothic";
   font-size: 3em;
-  letter-spacing: -3px;
+  letter-spacing: -1px;
 }
 .line_box .line {
   width: 65%;
   margin: 0.5em 0;
   font-family: "kmyungjo";
   font-size: 10em;
-  letter-spacing: -13px;
+  letter-spacing: -5px;
   word-spacing: -0.1em;
   line-height: 130%;
 }
@@ -240,12 +232,12 @@ a:hover {
   font-family: "kmyungjo";
   font-size: 10em;
   letter-spacing: -13px;
-  word-spacing: -0.1em;
+  word-spacing: -0.2em;
   line-height: 130%;
 }
 .line_box2 .timecode {
   font-size: 4em;
-  letter-spacing: -1px;
+  letter-spacing: -2px;
   font-family: "PT Mono", monospace;
 }
 
@@ -281,7 +273,7 @@ a:hover {
 .typeWriter {
   font-family: "tgothic";
   font-size: 2.5em;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
   line-height: 170%;
 }
 .typeWriter span {

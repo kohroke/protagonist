@@ -64,3 +64,37 @@ function change_btn(e) {
       });
       console.log(e.currentTarget);
   }
+
+
+  window.addEventListener("DOMContentLoaded", () => {
+
+    const tiles = document.querySelectorAll(".tile_text_first");
+
+    tiles.forEach(tile => {
+      
+
+        const x = Math.random() * 80;
+        const y = Math.random() * 80;
+
+        tile.style.left = `${x}%`;
+        tile.style.top = `${y}%`;
+
+    });
+
+});
+
+  window.addEventListener("DOMContentLoaded", () => {
+
+    const tiles = document.querySelectorAll(".tile_text_last");
+
+    tiles.forEach(tile => {
+
+        const x = Math.random() * 80;
+        const y = Math.random() * 80;
+
+        tile.style.left = `${x}%`;
+        tile.style.top = `${y}%`;
+
+    });
+
+});
