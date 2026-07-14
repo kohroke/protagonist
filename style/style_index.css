@@ -14,6 +14,11 @@
           user-select: none;
 }
 
+html {
+    font-size: 9px;
+}
+
+
 a:link {
   text-decoration-line: none;
 }
@@ -29,57 +34,56 @@ body {
 }
 
 .title {
+  
   cursor: pointer;
   display: inline-flex;
   position: fixed;
-  margin: 4em;
+  margin: 2em;
   width: 20em;
-  z-index: 9000;
-  mix-blend-mode: difference;
+  left: 2%;
+  top: 3%;
+  z-index: 10000;
+  width: 10%;
 }
 
 .menu {
-  color: #fff;
   cursor: pointer;
   display: inline-flex;
-  position: fixed;
-  z-index: 9000;
-  top: 1em;
-  left: 25em;
-  margin: 30px;
-  mix-blend-mode: difference;
+ position: fixed;
+  z-index: 10000;
+  top: 2%;
+  left: 15%;
 }
 
 .menu_index {
-  color: #fff;
   cursor: pointer;
   display: inline-flex;
   position: fixed;
-  z-index: 9000;
-  top: 1em;
-  right: 1em;
-  margin: 30px;
-  mix-blend-mode: difference;
-  font-family: "Montserrat", sans-serif;
+  z-index: 10000;
+   top: 2%;
+  right: 2%;
+}
+
+.cat_eng {
+    color: #fff;
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 600;
   font-weight: 500;
   width: auto;
   height: auto;
   font-size: 2.5em;
-  margin: 30px;
+  margin: 2em;
   line-height: 97%;
 }
 
-.cat_eng {
-  color: #fff;
-}
-
 .cat_kor {
-  color: #fff;
+    color: #fff;
   font-family: "Gothic A1", sans-serif;
+  font-weight: 600;
   width: auto;
   height: auto;
   font-size: 2.5em;
-  margin: 30px;
+  margin: 2em;
   letter-spacing: -10%;
 }
 
@@ -87,12 +91,11 @@ body {
   position: relative;
   top: 10em;
   right: 0;
-  width: 70%;
-  margin: 10em 10em 50em 80em;
+  margin: 5% 0% 15% 20%;
 }
 
 .index_table {
-  font-family: "tgothic";
+  font-family: "Gothic A1", sans-serif;
   font-size: 2em;
   text-align: left;
   border-collapse: collapse;

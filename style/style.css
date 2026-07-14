@@ -141,22 +141,22 @@ body {
   }
 }
 #gallery {
-  height: 110vmax;
-  width: 110vmax;
+  height: 100vmax;
+  width: 100vmax;
   position: absolute;
   z-index: 1;
 }
 
 #gallerylineA {
-  height: 110vmax;
-  width: 110vmax;
+  height: 100vmax;
+  width:  100vmax;
   position: absolute;
   z-index: 1;
 }
 
 #gallerylineB {
-  height: 110vmax;
-  width: 110vmax;
+  height: 100vmax;
+  width:  100vmax;
   position: absolute;
   z-index: 1;
 }
@@ -170,8 +170,7 @@ body {
 }
 .line_button .buttonA {
   display: inline;
-  border: solid 1px #fff;
-  border-radius: 30px;
+  border: solid 0px #fff;
   background-color: #000000;
   padding: 0.5em;
   font-family: "Gothic A1", sans-serif;
@@ -182,8 +181,7 @@ body {
 }
 .line_button .buttonB {
   display: inline;
-  border: solid 1px #fff;
-  border-radius: 30px;
+  border: solid 0px #fff;
   background-color: #000000;
   padding: 0.5em;
   font-family: "Gothic A1", sans-serif;
@@ -192,36 +190,46 @@ body {
   cursor: pointer;
 }
 
-.buttonA:hover.buttonA.active {
-  background: #fff;
+.buttonA:hover{
+  background: #ffffff;
   color: #000000;
-  border: solid 2px #000;
+  border: solid 0px #000;
+    font-weight: 900;
+}
+.buttonA.active {
+  background: #ffffff;
+  color: #000000;
+  border: solid 0px #000;
+  font-weight: 900;
 }
 
-.buttonA:visited {
-  background: #fff;
-  color: #000000;
-}
 
-.buttonB:hover.buttonB.active {
-  background: #fff;
+.buttonB:hover{
+  background: #ffffff;
   color: #000000;
-  border: solid 2px #000;
+  border: solid 0px #000;
+    font-weight: 900;
 }
-
-.buttonB:visited {
-  background: #fff;
+.buttonB.active {
+  background: #ffffff;
   color: #000000;
+  border: solid 0px #000;
+  font-weight: 900;
 }
 
 .tile {
   position: absolute;
   transition: transform 600ms ease;
+  height:auto;
+  min-height:8em;
 }
+
+.tile:hover{ z-index: 9999;}
+
 .tile img {
-  height: 100%;
   width: 100%;
-  -o-object-fit: cover;
+    display: block;
+    -o-object-fit: cover;
      object-fit: cover;
 }
 
@@ -230,194 +238,123 @@ body {
 }
 
 .tile:nth-child(1) {
-  height: 50rem;
   width: 40rem;
-  left: 20%;
-  top: 15%;
   background-color: #E60012;
 }
 
 .tile:nth-child(2) {
-  height: 50rem;
+  
   width: 40rem;
-  left: 23%;
-  top: 12%;
   background-color: #E60012;
 }
 
 .tile:nth-child(3) {
-  height: 70rem;
   width: 35rem;
-  left: 50%;
-  top: 30%;
   background-color: #E60012;
 }
 
 .tile:nth-child(4) {
-  height: 40rem;
-  width: 60rem;
-  left: 35%;
-  top: 48%;
+  width: 30rem;
   background-color: #E60012;
 }
 
 .tile:nth-child(5) {
-  height: 55rem;
   width: 40rem;
-  left: 8%;
-  top: 70%;
   background-color: #E60012;
 }
 
 .tile:nth-child(6) {
-  height: 55rem;
-  width: 65rem;
-  left: 68%;
-  top: 8%;
+  width: 55rem;
   background-color: #E60012;
 }
 
 .tile:nth-child(7) {
-  height: 40rem;
   width: 30rem;
-  left: 22%;
-  top: 42%;
   background-color: #358F43;
 }
 
 .tile:nth-child(8) {
-  height: 40rem;
   width: 30rem;
-  left: 72%;
-  top: 42%;
   background-color: #358F43;
 }
 
 .tile:nth-child(9) {
-  height: 60rem;
-  width: 50rem;
-  left: 76%;
-  top: 78%;
+  width: 43rem;
   background-color: #358F43;
 }
 
 .tile:nth-child(10) {
-  height: 45rem;
   width: 35rem;
-  left: 88%;
-  top: 7%;
   background-color: #358F43;
 }
 
 .tile:nth-child(11) {
-  height: 40rem;
   width: 40rem;
-  left: 65%;
-  top: 28%;
   background-color: #358F43;
 }
 
 .tile:nth-child(12) {
-  height: 40rem;
   width: 30rem;
-  left: 54%;
-  top: 4%;
   background-color: #358F43;
 }
 
 .tile:nth-child(13) {
-  height: 50rem;
   width: 40rem;
-  left: 84%;
-  top: 32%;
   background-color: #FF008F;
 }
 
 .tile:nth-child(14) {
-  height: 35rem;
   width: 35rem;
-  left: 38%;
-  top: 2%;
   background-color: #FF008F;
 }
 
 .tile:nth-child(15) {
-  height: 40rem;
   width: 35rem;
-  left: 68%;
-  top: 55%;
   background-color: #FF008F;
 }
 
 .tile:nth-child(16) {
-  height: 50rem;
-  width: 40rem;
-  left: 16%;
-  top: 58%;
+  width: 40rem;;
   background-color: #FF008F;
 }
 
 .tile:nth-child(17) {
-  height: 60rem;
   width: 50rem;
-  left: 22%;
-  top: 76%;
   background-color: #FF008F;
 }
 
 .tile:nth-child(18) {
-  height: 40rem;
   width: 30rem;
-  left: 65%;
-  top: 67%;
   background-color: #FF008F;
 }
 
 .tile:nth-child(19) {
-  height: 60rem;
   width: 45rem;
-  left: 56%;
-  top: 80%;
   background-color: #0086CF;
 }
 
 .tile:nth-child(20) {
-  height: 40rem;
   width: 30rem;
-  left: 42%;
-  top: 21%;
   background-color: #0086CF;
 }
 
 .tile:nth-child(21) {
-  height: 50rem;
   width: 40rem;
-  left: 45%;
-  top: 63%;
   background-color: #0086CF;
 }
 
 .tile:nth-child(22) {
-  height: 50rem;
   width: 50rem;
-  left: 80%;
-  top: 60%;
   background-color: #0086CF;
 }
 
 .tile:nth-child(23) {
-  height: 50rem;
   width: 40rem;
-  left: 26%;
-  top: 26%;
   background-color: #0086CF;
 }
 
 .tile:nth-child(24) {
-  height: 50rem;
   width: 40rem;
-  left: 5%;
-  top: 37%;
   background-color: #0086CF;
 }
 

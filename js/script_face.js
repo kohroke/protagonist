@@ -21,3 +21,19 @@ window.onmousemove = e => {
     })
   }
 
+   window.addEventListener("DOMContentLoaded", () => {
+
+    const tiles = document.querySelectorAll(".tile");
+
+    tiles.forEach(tile => {
+      
+
+        const x = Math.random() * 80;
+        const y = Math.random() * 80;
+
+        tile.style.left = `${x}%`;
+        tile.style.top = `${y}%`;
+
+    });
+
+});

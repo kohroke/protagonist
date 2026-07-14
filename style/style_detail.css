@@ -23,7 +23,7 @@ body {
   background-color: black;
   margin: 0px;
   width: 100%;
-      overflow: hidden;
+ overflow: hidden;
 }
 
 a:link {
@@ -58,7 +58,7 @@ a:hover {
 }
 
 .menu_index {
-   scrollbar-width: none;
+  scrollbar-width: none;
   cursor: pointer;
   display: inline-flex;
   position: fixed;
@@ -125,7 +125,7 @@ a:hover {
   letter-spacing: -5px;
 }
 #content .detail_block .detail_title .bad {
-  font-family: "tgothic";
+   font-family: "Gothic A1", sans-serif;
   font-size: 3em;
   position: absolute;
   right: 0;
@@ -142,14 +142,14 @@ a:hover {
   width: 100%;
 }
 #content .detail_block .detail_text .text_left {
-  font-family: "tgothic";
+   font-family: "Gothic A1", sans-serif;
   font-size: 2em;
   letter-spacing: -1px;
   line-height: 150%;
 }
 #content .detail_block .detail_text .text_right {
   position: absolute;
-  font-family: "tgothic";
+   font-family: "Gothic A1", sans-serif;
   font-size: 2em;
   letter-spacing: -1px;
   line-height: 150%;
@@ -195,18 +195,20 @@ a:hover {
   display: block;
 }
 .line_box .name {
-  font-family: "tgothic";
+   font-family: "Gothic A1", sans-serif;
   font-size: 3em;
   letter-spacing: -1px;
 }
 .line_box .line {
   width: 65%;
   margin: 0.5em 0;
-  font-family: "kmyungjo";
+font-family: dunkel-serif-display-medium, serif;
+font-weight: 900;
+font-style: normal;
   font-size: 10em;
-  letter-spacing: -5px;
-  word-spacing: -0.1em;
+  letter-spacing: -1px;
   line-height: 130%;
+  scrollbar-width: none;
 }
 .line_box .timecode {
   font-size: 4em;
@@ -222,18 +224,20 @@ a:hover {
   display: block;
 }
 .line_box2 .name {
-  font-family: "tgothic";
+   font-family: "Gothic A1", sans-serif;
   font-size: 3em;
   letter-spacing: -3px;
 }
 .line_box2 .line {
-  width: 60%;
+  width: 65%;
   margin: 0.5em 0;
-  font-family: "kmyungjo";
+font-family: dunkel-serif-display-medium, serif;
+font-weight: 900;
+font-style: normal;
   font-size: 10em;
-  letter-spacing: -13px;
-  word-spacing: -0.2em;
+  letter-spacing: -1px;
   line-height: 130%;
+  scrollbar-width: none;
 }
 .line_box2 .timecode {
   font-size: 4em;
@@ -271,7 +275,7 @@ a:hover {
 }
 
 .typeWriter {
-  font-family: "tgothic";
+   font-family: "Gothic A1", sans-serif;
   font-size: 2.5em;
   letter-spacing: -2px;
   line-height: 170%;
