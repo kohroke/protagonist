@@ -119,9 +119,11 @@ a:hover {
   overflow: hidden;
 }
 #content .detail_block .detail_title .name {
-  font-family: "kmyungjo";
+   font-family: "Gothic A1", sans-serif;
   font-size: 5em;
   color: #fff;
+  top:0;
+    margin: 0 0 0 0;
   letter-spacing: -5px;
 }
 #content .detail_block .detail_title .bad {
@@ -129,6 +131,7 @@ a:hover {
   font-size: 3em;
   position: absolute;
   right: 0;
+  margin: 0.5% 0 0 0;
   letter-spacing: -3px;
 }
 #content .detail_block .solid_line {
@@ -267,10 +270,12 @@ font-style: normal;
 }
 .typelighter_box {
   width: 20%;
+  height: 80%;
+  overflow:hidden;
   position: fixed;
   right: 10em;
   top: 15em;
-  margin: 1em;
+    margin:0;
   mix-blend-mode: difference;
 }
 
@@ -279,6 +284,9 @@ font-style: normal;
   font-size: 2.5em;
   letter-spacing: -2px;
   line-height: 170%;
+    display:block;
+    white-space:pre-wrap;
+    word-break:keep-all;
 }
 .typeWriter span {
   color: #fff;
